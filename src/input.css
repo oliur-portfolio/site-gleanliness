@@ -1,0 +1,26 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  html {
+    @apply scroll-smooth;
+  }
+
+  body {
+    @apply font-inter text-lg font-medium bg-white text-black;
+  }
+
+  a {
+    @apply inline-block;
+  }
+
+  img,
+  svg {
+    @apply w-full h-full object-cover;
+  }
+
+  ul {
+    @apply list-disc;
+  }
+}
