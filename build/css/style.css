@@ -627,10 +627,6 @@ ul {
   margin-bottom: 2.5rem;
 }
 
-.ml-5 {
-  margin-left: 1.25rem;
-}
-
 .ml-\[18px\] {
   margin-left: 18px;
 }
@@ -659,10 +655,6 @@ ul {
   aspect-ratio: 2/1.4;
 }
 
-.aspect-\[2\/1\] {
-  aspect-ratio: 2/1;
-}
-
 .h-auto {
   height: auto;
 }
@@ -687,10 +679,6 @@ ul {
   gap: 3rem;
 }
 
-.gap-20 {
-  gap: 5rem;
-}
-
 .gap-3 {
   gap: 0.75rem;
 }
@@ -705,6 +693,10 @@ ul {
 
 .py-16 {
   padding-top: 4rem;
+  padding-bottom: 4rem;
+}
+
+.pb-16 {
   padding-bottom: 4rem;
 }
 
@@ -760,11 +752,6 @@ ul {
   width: 0px;
 }
 
-.after\:w-\[1px\]::after {
-  content: var(--tw-content);
-  width: 1px;
-}
-
 .after\:bg-primary::after {
   content: var(--tw-content);
   --tw-bg-opacity: 1;
@@ -783,10 +770,6 @@ ul {
 @media (min-width: 768px) {
   .md\:mt-12 {
     margin-top: 3rem;
-  }
-
-  .md\:aspect-\[2\/1\.4\] {
-    aspect-ratio: 2/1.4;
   }
 
   .md\:aspect-\[2\/1\] {
@@ -818,6 +801,25 @@ ul {
 
   .xl\:gap-20 {
     gap: 5rem;
+  }
+
+  .xl\:py-20 {
+    padding-top: 5rem;
+    padding-bottom: 5rem;
+  }
+
+  .xl\:py-10 {
+    padding-top: 2.5rem;
+    padding-bottom: 2.5rem;
+  }
+
+  .xl\:py-16 {
+    padding-top: 4rem;
+    padding-bottom: 4rem;
+  }
+
+  .xl\:pb-20 {
+    padding-bottom: 5rem;
   }
 
   .xl\:after\:w-\[1px\]::after {
